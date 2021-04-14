@@ -1,0 +1,407 @@
+10:04:08 **** Rebuild of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:28:3: warning: 'menu' is used uninitialized in this function [-Wuninitialized]
+   switch(menu)
+   ^~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+10:05:03 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:28:3: warning: 'menu' is used uninitialized in this function [-Wuninitialized]
+   switch(menu)
+   ^~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+10:05:38 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+10:06:15 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+17:42:06 **** Rebuild of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+17:43:12 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+17:44:18 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+17:44:55 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:02:07 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:03:38 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:50:10: warning: implicit declaration of function 'suma' [-Wimplicit-function-declaration]
+    sumar=suma(A,B);
+          ^~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+src\CalculadoraTP1.o: In function `main':
+D:\Users\Comishi - Pau\Desktop\TPs\CalculadoraTP1\Debug/../src/CalculadoraTP1.c:50: undefined reference to `suma'
+collect2.exe: error: ld returned 1 exit status
+18:04:06 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:50:10: error: called object 'sumar' is not a function or function pointer
+    sumar=sumar(A,B);
+          ^~~~~
+..\src\CalculadoraTP1.c:26:6: note: declared here
+  int sumar;
+      ^~~~~
+18:06:32 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:50:10: error: called object 'sumar' is not a function or function pointer
+    sumar=sumar(A,B);
+          ^~~~~
+..\src\CalculadoraTP1.c:26:6: note: declared here
+  int sumar;
+      ^~~~~
+18:06:42 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:50:10: error: called object 'sumar' is not a function or function pointer
+    sumar=sumar(A,B);
+          ^~~~~
+..\src\CalculadoraTP1.c:26:6: note: declared here
+  int sumar;
+      ^~~~~
+18:07:34 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:12:30 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^~~~~~~~~
+..\src\CalculadoraTP1.c:29:6: warning: unused variable 'multiplicacion' [-Wunused-variable]
+  int multiplicacion;
+      ^~~~~~~~~~~~~~
+..\src\CalculadoraTP1.c:28:8: warning: unused variable 'division' [-Wunused-variable]
+  float division;
+        ^~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:19:13 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:66:44: warning: format '%f' expects argument of type 'double', but argument 2 has type 'float (*)(int,  int)' [-Wformat=]
+    printf("\nc) El resultado de A/B es: %.2f", dividir);
+                                            ^
+..\src\CalculadoraTP1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^~~~~~~~~
+..\src\CalculadoraTP1.c:28:8: warning: variable 'division' set but not used [-Wunused-but-set-variable]
+  float division;
+        ^~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+18:19:45 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^~~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:22:42 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^~~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:23:49 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^~~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:25:26 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:30:6: warning: unused variable 'factorial' [-Wunused-variable]
+  int factorial;
+      ^~~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:30:02 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:61:14: error: called object 'factorial' is not a function or function pointer
+    factorial=factorial(A);
+              ^~~~~~~~~
+..\src\CalculadoraTP1.c:30:6: note: declared here
+  int factorial;
+      ^~~~~~~~~
+18:30:39 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:61:14: error: called object 'factorial' is not a function or function pointer
+    factorial=factorial(A);
+              ^~~~~~~~~
+..\src\CalculadoraTP1.c:30:6: note: declared here
+  int factorial;
+      ^~~~~~~~~
+18:31:01 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+Info: Nothing to build for CalculadoraTP1
+18:34:57 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'factorizar':
+..\src\CalculadoraTP1.c:123:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  else if (A=1)
+  ^~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+18:38:39 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'factorizar':
+..\src\CalculadoraTP1.c:123:2: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  else if (A=1)
+  ^~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+18:38:56 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:45:38 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+18:48:35 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:70:44: error: 'factorial' undeclared (first use in this function)
+    printf("\ne) El factorial de A es: %d", factorial);
+                                            ^~~~~~~~~
+..\src\CalculadoraTP1.c:70:44: note: each undeclared identifier is reported only once for each function it appears in
+..\src\CalculadoraTP1.c:31:6: warning: variable 'factorialB' set but not used [-Wunused-but-set-variable]
+  int factorialB;
+      ^~~~~~~~~~
+..\src\CalculadoraTP1.c:30:6: warning: variable 'factorialA' set but not used [-Wunused-but-set-variable]
+  int factorialA;
+      ^~~~~~~~~~
+18:49:08 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+19:02:56 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:58:15: warning: implicit declaration of function 'factorizar' [-Wimplicit-function-declaration]
+    factorialA=factorizar(A);
+               ^~~~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+src\CalculadoraTP1.o: In function `main':
+D:\Users\Comishi - Pau\Desktop\TPs\CalculadoraTP1\Debug/../src/CalculadoraTP1.c:58: undefined reference to `factorizar'
+D:\Users\Comishi - Pau\Desktop\TPs\CalculadoraTP1\Debug/../src/CalculadoraTP1.c:59: undefined reference to `factorizar'
+collect2.exe: error: ld returned 1 exit status
+19:03:54 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+19:12:02 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:35:3: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  A=NULL;
+   ^
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+19:12:36 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+19:22:04 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:90:42: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+      printf("\ne) El factorial de A es: %d y el factorial de B no existe por no ser un numero mayor a 0");
+                                          ^
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+19:23:12 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+Info: Nothing to build for CalculadoraTP1
+Info: Nothing to build for CalculadoraTP1
+19:33:53 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+19:37:13 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+19:38:06 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file CalculadoraTP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:38:36 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+19:57:53 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c:137:7: error: conflicting types for 'dividir'
+ float dividir(int A, int B)
+       ^~~~~~~
+..\src\CalculadoraTP1.c:17:8: note: previous declaration of 'dividir' was here
+ double dividir(int A, int B);
+        ^~~~~~~
+..\src\CalculadoraTP1.c:153:8: error: conflicting types for 'factorial'
+ double factorial(int F)
+        ^~~~~~~~~
+..\src\CalculadoraTP1.c:19:6: note: previous declaration of 'factorial' was here
+ long factorial(int F);
+      ^~~~~~~~~
+20:00:36 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file CalculadoraTP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:00:44 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+20:01:53 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file CalculadoraTP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:02:01 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" 
+Info: Nothing to build for CalculadoraTP1
+20:08:50 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:50:9: warning: implicit declaration of function 'sumar' [-Wimplicit-function-declaration]
+    suma=sumar(A,B);
+         ^~~~~
+..\src\CalculadoraTP1.c:51:10: warning: implicit declaration of function 'restar' [-Wimplicit-function-declaration]
+    resta=restar(A,B);
+          ^~~~~~
+..\src\CalculadoraTP1.c:52:13: warning: implicit declaration of function 'dividir' [-Wimplicit-function-declaration]
+    division=dividir(A,B);
+             ^~~~~~~
+..\src\CalculadoraTP1.c:53:19: warning: implicit declaration of function 'multiplicar' [-Wimplicit-function-declaration]
+    multiplicacion=multiplicar(A,B);
+                   ^~~~~~~~~~~
+..\src\CalculadoraTP1.c:54:15: warning: implicit declaration of function 'factorial' [-Wimplicit-function-declaration]
+    factorialA=factorial(A);
+               ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Calculos.o" "..\\src\\Calculos.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+20:09:43 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+20:11:07 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+15:37:37 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+15:41:12 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+15:42:02 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+15:46:19 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file CalculadoraTP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:46:30 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+15:48:09 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:21:6: warning: variable 'flagPrimerMenu' set but not used [-Wunused-but-set-variable]
+  int flagPrimerMenu;
+      ^~~~~~~~~~~~~~
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+15:48:22 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+..\src\CalculadoraTP1.c: In function 'main':
+..\src\CalculadoraTP1.c:35:2: error: 'flagPrimerMenu' undeclared (first use in this function)
+  flagPrimerMenu=0;
+  ^~~~~~~~~~~~~~
+..\src\CalculadoraTP1.c:35:2: note: each undeclared identifier is reported only once for each function it appears in
+15:48:32 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 

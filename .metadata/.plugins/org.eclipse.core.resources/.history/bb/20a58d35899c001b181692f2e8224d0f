@@ -1,0 +1,60 @@
+/*
+ * Calculos.c
+ *
+ *  Created on: 10 abr. 2021
+ *      Author: Comishi - Pau
+ */
+
+int sumar(int A, int B)
+{
+	int suma;
+
+	suma = A+B;
+
+	return suma;
+}
+int restar(int A, int B)
+{
+	int resta;
+
+	resta=A-B;
+
+	return resta;
+}
+float dividir(int A, int B)
+{
+	float division;
+
+	division= (float)A/B;
+
+	return division;
+}
+int multiplicar (int A, int B)
+{
+	int multiplicacion;
+
+	multiplicacion=A*B;
+
+	return multiplicacion;
+}
+double factorial(int F)
+{
+	double factorialF;
+
+	factorialF=1;
+	if(F>0)
+	{
+		while(F>1)
+		{
+			factorialF*=F;
+			F--;
+		}
+	}
+	else
+	{
+		factorialF=0;
+	}
+	return factorialF;
+}
+
+

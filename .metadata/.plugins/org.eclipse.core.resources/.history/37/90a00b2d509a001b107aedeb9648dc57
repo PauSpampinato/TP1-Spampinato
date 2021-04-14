@@ -1,0 +1,172 @@
+/*
+ ============================================================================
+ Name        : CalculadoraTP1.c
+ Author      : Spampinato Paula
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int menu(int A, int B);
+int sumar(int A, int B);
+int restar(int A, int B);
+float dividir(int A, int B);
+int multiplicar (int A, int B);
+long factorial(int F);
+
+int main(void) {
+	setbuf(stdout,NULL);
+	int opcion;
+	int salir;
+	int A;
+	int B;
+	int suma;
+	int resta;
+	float division;
+	int multiplicacion;
+	long factorialA;
+	long factorialB;
+
+
+	A=0;
+	B=0;
+	salir=0;
+
+	do
+	{
+		opcion=menu(A,B);
+
+		switch(opcion)
+		{
+		case 1:
+			printf("\n A=");
+			scanf("%d", &A);
+			break;
+		case 2:
+			printf("\n B=");
+			scanf("%d", &B);
+			break;
+		case 3:
+			suma=sumar(A,B);
+			resta=restar(A,B);
+			division=dividir(A,B);
+			multiplicacion=multiplicar(A,B);
+			factorialA=factorial(A);
+			factorialB=factorial(B);
+			break;
+		case 4:
+			printf("\na) El resultado de A+B es: %d", suma);
+			printf("\nb) El resultado de A-B es: %d", resta);
+			if(B==0)
+			{
+				printf("\nc) No es posible dividir por cero");
+			}
+			else
+			{
+				printf("\nc) El resultado de A/B es: %.2f", division);
+			}
+
+			printf("\nd) El resultado de A*B es: %d", multiplicacion);
+			if(factorialA==0)
+			{
+				if(factorialB==0)
+				{
+					printf("\ne) Los factoriales de A y B no existen por no ser numeros mayores a 0\n");
+				}
+				else
+				{
+					printf("\ne) El factorial de A no existe por no ser un numero mayor a 0 y el factorial de B es: %ld\n", factorialB);
+				}
+
+			}
+			else
+			{
+				if(factorialB==0)
+				{
+					printf("\ne) El factorial de A es: %ld y el factorial de B no existe por no ser un numero mayor a 0\n", factorialA);
+				}
+				else
+				{
+					printf("\ne) El factorial de A es: %ld y el factorial de B es: %ld\n", factorialA, factorialB);
+				}
+			}
+			break;
+		case 5:
+			salir=1;
+			break;
+		default:
+			printf("\n El numero ingresado no corresponde a una opción de menú");
+			break;
+		}
+	}while(salir==0);
+	return EXIT_SUCCESS;
+}
+int menu(int A,int B)
+{
+	int opcion;
+
+	printf("\n 1. Ingresar primer operando (A=%d)", A);
+	printf("\n 2. Ingresar segundo operando (B=%d)", B);
+	printf("\n 3. Calcular todas las operaciones");
+	printf("\n 4. Informar resultados");
+	printf("\n 5. Salir\n");
+	scanf("%d", &opcion);
+
+	return opcion;
+}
+int sumar(int A, int B)
+{
+	int suma;
+
+	suma = A+B;
+
+	return suma;
+}
+int restar(int A, int B)
+{
+	int resta;
+
+	resta=A-B;
+
+	return resta;
+}
+float dividir(int A, int B)
+{
+	float division;
+
+	division= (float)A/B;
+
+	return division;
+}
+int multiplicar (int A, int B)
+{
+	int multiplicacion;
+
+	multiplicacion=A*B;
+
+	return multiplicacion;
+}
+long factorial(int F)
+{
+	long factorialF;
+
+	factorialF=1;
+	if(F>0)
+	{
+		while(F>1)
+		{
+			factorialF*=F;
+			F--;
+		}
+	}
+	else
+	{
+		factorialF=0;
+	}
+	return factorialF;
+}
+

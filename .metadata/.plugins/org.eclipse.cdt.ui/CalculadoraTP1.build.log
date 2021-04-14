@@ -1,0 +1,7 @@
+15:48:32 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+
+15:48:32 Build Finished. 0 errors, 0 warnings. (took 369ms)
+
