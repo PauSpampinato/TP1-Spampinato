@@ -405,3 +405,81 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\Cal
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
 gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+09:30:26 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Calculos.o" "..\\src\\Calculos.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+09:44:45 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Calculos.o" "..\\src\\Calculos.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file CalculadoraTP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+09:44:55 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+10:41:59 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Calculos.o" "..\\src\\Calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+10:45:48 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file CalculadoraTP1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+10:46:02 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+Info: Nothing to build for CalculadoraTP1
+10:49:34 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+Info: Nothing to build for CalculadoraTP1
+10:56:55 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+11:17:59 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Calculos.o" "..\\src\\Calculos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+11:53:16 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Calculos.o" "..\\src\\Calculos.c" 
+..\src\Calculos.c:7:22: warning: extra tokens at end of #include directive
+ #include "Calculos.h";
+                      ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+11:53:52 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Calculos.o" "..\\src\\Calculos.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+11:55:41 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+11:57:51 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1
+11:58:13 **** Incremental Build of configuration Debug for project CalculadoraTP1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\CalculadoraTP1.o" "..\\src\\CalculadoraTP1.c" 
+gcc -o CalculadoraTP1.exe "src\\CalculadoraTP1.o" "src\\Calculos.o" 
+Info: Nothing to build for CalculadoraTP1

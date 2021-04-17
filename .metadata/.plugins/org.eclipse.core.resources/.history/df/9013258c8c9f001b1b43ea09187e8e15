@@ -70,15 +70,14 @@ int main(void) {
 				factorialA=calculos_factorial(A);
 				factorialB=calculos_factorial(B);
 				flagYaCalculo=1;
-				printf("\nSe calcularon las operaciones de manera exitosa.\n");
 				break;
 			case 4:
-				if(flagYaCalculo==1)//condicional para saber si el usuario ya solicitó que se realicen los cálculos antes de poder mostrarlos
+				if(flagYaCalculo==1)//condicional para saber si el usuario ya solicitó que se realicen los cálculos.
 				{
 					printf("\na) El resultado de A+B es: %d", suma);
 					printf("\nb) El resultado de A-B es: %d", resta);
 
-					if(flagBesCero==1)//condicional para saber si se pudo realizar o no la división.
+					if(flagBesCero==1)//condicional para saber si se puede realizar o no la operación.
 					{
 						printf("\nc) No es posible dividir por cero");
 					}
@@ -88,7 +87,7 @@ int main(void) {
 					}
 
 					printf("\nd) El resultado de A*B es: %d", multiplicacion);
-					if(factorialA==0)//condicional para saber si se pudieron realizar los factoriales
+					if(factorialA==0)//condicional para saber si se pudo realizar o no la operación.
 					{
 						if(factorialB==0)
 						{
@@ -96,14 +95,14 @@ int main(void) {
 						}
 						else
 						{
-							printf("\ne) El factorial de A no se puede calcular por ser A un numero menor a 0 y el factorial de B es: %.0lf\n", factorialB);
+							printf("\ne) El factorial de A no existe por ser A un numero menor a 0 y el factorial de B es: %.0lf\n", factorialB);
 						}
 					}
 					else
 					{
 						if(factorialB==0)
 						{
-							printf("\ne) El factorial de A es: %.0lf y el factorial de B no se puede calcular por ser B un numero menor a 0\n", factorialA);
+							printf("\ne) El factorial de A es: %.0lf y el factorial de B no existe por ser B un numero menor a 0\n", factorialA);
 						}
 						else
 						{
@@ -131,12 +130,12 @@ int main(void) {
  * \param B recibe el dato guardado en B para mostrarlo en el menú
  * \return retorna un numero según la opción del menú que el usuario elija.
  */
-int menu(int A,int B)
+int menu(int A,int B)//función que muestra el menú
 {
 	int opcion;
 
-	printf("\n 1. Ingresar primer operando entero (A=%d)", A);
-	printf("\n 2. Ingresar segundo operando entero (B=%d)", B);
+	printf("\n 1. Ingresar primer operando (A=%d)", A);
+	printf("\n 2. Ingresar segundo operando (B=%d)", B);
 	printf("\n 3. Calcular todas las operaciones");
 	printf("\n 4. Informar resultados");
 	printf("\n 5. Salir\n");

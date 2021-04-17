@@ -1,0 +1,144 @@
+/*
+ ============================================================================
+ Name        : CalculadoraTP1.c
+ Author      : Spampinato Paula
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "Calculos.h"
+
+int menu(int A, int B);
+
+int main(void) {
+	setbuf(stdout,NULL);
+
+	//Declaración de variables.
+	int opcion;
+	int salir;
+	int A;
+	int B;
+	int suma;
+	int resta;
+	float division;
+	int multiplicacion;
+	double factorialA;
+	double factorialB;
+	int flagYaCalculo;
+	int flagBesCero;
+
+	//Inicialización de las variables que así lo requieran.
+	A=0;
+	B=0;
+	salir=0;
+	flagYaCalculo=0;
+	flagBesCero=0;
+
+	//Iteración de tipo do while para que muestre el menú siempre hasta que el usuario decida salir.
+	do
+	{
+
+		opcion=menu(A,B);//llamada la función que muestra el menú
+
+
+		switch(opcion)//condicional para decidir qué hara el programa en función de la opción del menú que eligió el usuario.
+		{
+		case 1:
+			printf("\n A=");
+			scanf("%d", &A);
+			break;
+		case 2:
+			printf("\n B=");
+			scanf("%d", &B);
+			break;
+		case 3:
+			//Llamada a todas las funciones que realizan calculos (éstas se encuentran en una biblioteca aparte)
+			suma=sumar(A,B);
+			resta=restar(A,B);
+			if (B!=0)
+			{
+				division=dividir(A,B);
+				flagBesCero=0;
+				printf("prueba if3");
+			}
+			else
+			{
+				flagBesCero=1;
+				printf("prueba else3");
+			}
+			multiplicacion=multiplicar(A,B);
+			factorialA=factorial(A);
+			factorialB=factorial(B);
+			flagYaCalculo=1;
+			break;
+		case 4:
+			if(flagYaCalculo==1)//condicional para saber si ya solicitó que se realicen los cálculos.
+			{printf("\na) El resultado de A+B es: %d", suma);
+			printf("\nb) El resultado de A-B es: %d", resta);
+			if(flagBesCero==1)//condicional para saber si se puede realizar o no la operación.
+			{
+				printf("\nc) No es posible dividir por cero");
+				printf("prueba if4");
+			}
+			else
+			{
+				printf("\nc) El resultado de A/B es: %.2f", division);
+				printf("prueba else4");
+			}
+
+			printf("\nd) El resultado de A*B es: %d", multiplicacion);
+			if(factorialA==0)//condicional para saber si se pudo realizar o no la operación.
+			{
+				if(factorialB==0)
+				{
+					printf("\ne) No se puede calcular el factorial por ser A y B menores a 0.\n");
+				}
+				else
+				{
+					printf("\ne) El factorial de A no existe por ser A un numero menor a 0 y el factorial de B es: %.0lf\n", factorialB);
+				}
+
+			}
+			else
+			{
+				if(factorialB==0)
+				{
+					printf("\ne) El factorial de A es: %.0lf y el factorial de B no existe por ser B un numero menor a 0\n", factorialA);
+				}
+				else
+				{
+					printf("\ne) El factorial de A es: %.0lf y el factorial de B es: %.0lf\n", factorialA, factorialB);
+				}
+			}}
+			else
+			{
+				printf("\nDebe solicitar la opción 3 para calcular los resultados antes de mostrarlos.\n");
+			}
+			break;
+		case 5:
+			salir=1;
+			break;
+		default:
+			printf("\n El numero ingresado no corresponde a una opción de menú. Por favor, vuelva a seleccionar una opción.");
+			break;
+		}
+	}while(salir==0);
+	return EXIT_SUCCESS;
+}
+int menu(int A,int B)//función que muestra el menú
+{
+	int opcion;
+
+	printf("\n 1. Ingresar primer operando (A=%d)", A);
+	printf("\n 2. Ingresar segundo operando (B=%d)", B);
+	printf("\n 3. Calcular todas las operaciones");
+	printf("\n 4. Informar resultados");
+	printf("\n 5. Salir\n");
+	scanf("%d", &opcion);
+
+	return opcion;
+}

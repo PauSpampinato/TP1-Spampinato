@@ -70,7 +70,7 @@ int main(void) {
 				factorialA=calculos_factorial(A);
 				factorialB=calculos_factorial(B);
 				flagYaCalculo=1;
-				printf("\nSe calcularon las operaciones de manera exitosa.\n");
+				printf("Se calcularon las operaciones de manera exitosa.");
 				break;
 			case 4:
 				if(flagYaCalculo==1)//condicional para saber si el usuario ya solicitó que se realicen los cálculos antes de poder mostrarlos

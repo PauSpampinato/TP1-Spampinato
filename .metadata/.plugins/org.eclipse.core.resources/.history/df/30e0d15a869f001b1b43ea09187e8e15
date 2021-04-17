@@ -2,16 +2,15 @@
  * Calculos.c
  *
  *  Created on: 10 abr. 2021
- *      Author: Spampinato Paula
+ *      Author: Comishi - Pau
  */
-#include "Calculos.h"
 
 /** \brief Realiza la operación de suma entre dos operandos
  * \param A primer operando A
  * \param B segundo operando B
  * \return retorna el resultado de la operación
  */
-int calculos_sumar(int A, int B)
+int sumar(int A, int B)
 {
 	int suma;
 
@@ -24,7 +23,7 @@ int calculos_sumar(int A, int B)
  * \param B segundo operando B
  * \return retorna el resultado de la operación
  */
-int calculos_restar(int A, int B)
+int restar(int A, int B)//Realiza la resta entre A y B. Recibe parámetros A y B y retorna el resultado de la resta.
 {
 	int resta;
 
@@ -37,7 +36,7 @@ int calculos_restar(int A, int B)
  * \param B segundo operando B
  * \return retorna el resultado de la operación
  */
-float calculos_dividir(int A, int B)
+float dividir(int A, int B)//Realiza la división entre A y B. Recibe parámetros A y B y retorna el resultado de la división.
 {
 	float division;
 
@@ -45,12 +44,7 @@ float calculos_dividir(int A, int B)
 
 	return division;
 }
-/** \brief Realiza la operación de multiplicación entre dos operandos
- * \param A primer operando A
- * \param B segundo operando B
- * \return retorna el resultado de la operación
- */
-int calculos_multiplicar (int A, int B)
+int multiplicar (int A, int B)//Realiza la multiplicación entre A y B. Recibe parámetros A y B y retorna el resultado de la multiplicación.
 {
 	int multiplicacion;
 
@@ -58,11 +52,7 @@ int calculos_multiplicar (int A, int B)
 
 	return multiplicacion;
 }
-/** \brief Realiza el factorial de un número
- * \param F numero a ser factorializado (puede ser A o B)
- * \return retorna el valor del factorial o 0 si no se puede realizar.
- */
-double calculos_factorial(int F)
+double factorial(int F)//Realiza el factorial de A o B. Recibe parámetro A o B, descarta que sea menor a 1 y retorna el resultado del factorial o 0 en caso de que el parámetro sea menor a 1.
 {
 	double factorialF;
 

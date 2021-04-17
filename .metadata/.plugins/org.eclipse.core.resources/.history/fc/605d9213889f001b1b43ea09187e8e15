@@ -4,8 +4,7 @@
  *  Created on: 10 abr. 2021
  *      Author: Spampinato Paula
  */
-#include "Calculos.h"
-
+#include "Calculos.h";
 /** \brief Realiza la operación de suma entre dos operandos
  * \param A primer operando A
  * \param B segundo operando B

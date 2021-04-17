@@ -2,16 +2,15 @@
  * Calculos.c
  *
  *  Created on: 10 abr. 2021
- *      Author: Spampinato Paula
+ *      Author: Paula Spampinato
  */
-#include "Calculos.h"
 
 /** \brief Realiza la operación de suma entre dos operandos
  * \param A primer operando A
  * \param B segundo operando B
  * \return retorna el resultado de la operación
  */
-int calculos_sumar(int A, int B)
+int sumar(int A, int B)
 {
 	int suma;
 
@@ -24,7 +23,7 @@ int calculos_sumar(int A, int B)
  * \param B segundo operando B
  * \return retorna el resultado de la operación
  */
-int calculos_restar(int A, int B)
+int restar(int A, int B)
 {
 	int resta;
 
@@ -37,7 +36,7 @@ int calculos_restar(int A, int B)
  * \param B segundo operando B
  * \return retorna el resultado de la operación
  */
-float calculos_dividir(int A, int B)
+float dividir(int A, int B)
 {
 	float division;
 
@@ -50,7 +49,7 @@ float calculos_dividir(int A, int B)
  * \param B segundo operando B
  * \return retorna el resultado de la operación
  */
-int calculos_multiplicar (int A, int B)
+int multiplicar (int A, int B)
 {
 	int multiplicacion;
 
@@ -62,7 +61,7 @@ int calculos_multiplicar (int A, int B)
  * \param F numero a ser factorializado (puede ser A o B)
  * \return retorna el valor del factorial o 0 si no se puede realizar.
  */
-double calculos_factorial(int F)
+double factorial(int F)
 {
 	double factorialF;
 

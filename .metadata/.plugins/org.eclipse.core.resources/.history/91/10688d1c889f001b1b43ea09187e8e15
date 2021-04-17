@@ -4,13 +4,9 @@
  *  Created on: 10 abr. 2021
  *      Author: Spampinato Paula
  */
-#include "Calculos.h"
+#include "Calculos.h";
 
-/** \brief Realiza la operación de suma entre dos operandos
- * \param A primer operando A
- * \param B segundo operando B
- * \return retorna el resultado de la operación
- */
+
 int calculos_sumar(int A, int B)
 {
 	int suma;
